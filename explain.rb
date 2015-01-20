@@ -12,7 +12,7 @@ def explain_request(line)
     else
       puts "Waiting for HTTP headers: ABORTED!"
     end
-    td = timings[5].to_i - (timings[1].to_i + timings[2].to_i + timings[3].to_i) + timings[4].to_i
+    td = timings[5].to_i - (timings[1].to_i + timings[2].to_i + timings[3].to_i + timings[4].to_i)
     puts "Time to transmit data:    #{ActiveSupport::NumberHelper.number_to_delimited td} ms"
     puts "End-to-End timing:        #{ActiveSupport::NumberHelper.number_to_delimited timings[5]} ms#{timings[5].start_with?('+') ? ' (logasap is turned on, timing is not complete!)' : ''}"
     puts ""

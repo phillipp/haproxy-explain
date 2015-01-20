@@ -18,7 +18,7 @@ Waiting for request:      0 ms
 Waiting in queue:         0 ms
 Connection to backend:    6 ms (including retries)
 Waiting for HTTP headers: 11 ms (without sending data)
-Time to transmit data:    22 ms
+Time to transmit data:    0 ms
 End-to-End timing:        17 ms
 
 [HTTP Request]
