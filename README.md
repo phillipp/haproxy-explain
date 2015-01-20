@@ -10,6 +10,10 @@ Now you want to know how long each step of the processing took, how many request
 
 `cat your_request.log | ruby explain.rb`
 
+Or from the clipboard:
+
+`cat - | ruby explain.rb`
+
 You will get a nice explanation for each request, like this:
 
 ```
